@@ -44,12 +44,6 @@ git checkout TradeMiddlePlatform/CMakeLists.txt
 5、git push origin master 将本地版本库推送到远程服务器，
 	origin是远程主机，master表示是远程服务器上的master分支和本地分支重名的简写，分支名是可以修改的
 
-作者：Mr无愧于心
-链接：https://www.jianshu.com/p/2e1d551b8261
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
 git 本地tag和远程tag对应不上 vscode里pull不下代码:
 报错“! [rejected]          dataSource0424 -> dataSource0424  (would clobber existing tag)”
 1、查看远程tags	git ls-remote -t
