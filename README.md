@@ -54,3 +54,5 @@ git 本地tag和远程tag对应不上 vscode里pull不下代码:
 
 vscode安装vsix文件:
 code --install-extension xxxxx.vsix
+
+更改一下
