@@ -35,10 +35,22 @@ git checkout master
 拉取代码：
 git pull origin master
 
-回退版本：
-git status 
-git log
-git reset --hard a60b0ad6a70df029034d552bc2fba447fc94d915
+git撤销提交(commit)
+	git reset
+		当git reset 后面的commitId为当前提交的commitId时，即HEAD(可缺省)。那么：
+			参数说明
+				--hard HEAD 修改暂存区、工作区里面的内容为当前快照里的内容。（这个很危险，曾经踩过坑，电脑的文件丢失了很多，也是导致我决心好好学一学git的原因，慎用）
+				--mixed HEAD 修改暂存区里面的内容为当前快照里的内容，是git reset默认的参数，因此可缺省。
+				--soft HEAD 本地仓库、暂存区、工作区都不改变
+			具体说明
+				--mixed 
+					意思是：不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
+					这个为默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
+				--soft  
+					不删除工作空间改动代码，撤销commit，不撤销git add . 
+				--hard
+					删除工作空间改动代码，撤销commit，撤销git add . 
+					注意完成这个操作后，就恢复到了上一次的commit状态。
 
 删除本地文件：
 rm -rf TradeMiddlePlatform/UserAssetBizSvr
