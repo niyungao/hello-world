@@ -2,6 +2,8 @@
 
 拷贝代码：
 git clone http://git.jintencent.com/jv-svr/jvms_proj_release.git
+git clone https://github.com/niyungao/hello-world.git
+git clone git@github.com:niyungao/hello-world.git
 
 查看本地分支：
 git branch
