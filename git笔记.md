@@ -57,6 +57,11 @@ git撤销提交(commit)
 
 	git checkout TradeMiddlePlatform/CMakeLists.txt
 
+放弃所有的本地改动与提交，到服务器上获取最新的版本并将本地主分支指向到它：
+	git fetch origin
+	git reset --hard origin/master
+
+
 git 本地tag和远程tag对应不上 vscode里pull不下代码:
 报错“! [rejected]          dataSource0424 -> dataSource0424  (would clobber existing tag)”
 	1、查看远程tags	git ls-remote -t
