@@ -60,7 +60,7 @@
 
 ​    git pull origin master  
 
-​    注意：
+​    注意：  
 
 ​        1、每次使用该命令前，需要保证本地工作区是没有任何修改代码的，也就是说需要将本地工作区编辑过的文件添加到暂存区（git add .），或提交到本地仓库中(git commit)，才可以使用该命令拉取指定分支的代码合并到当前分支中。  
 
@@ -82,7 +82,7 @@
 
 ​                --soft HEAD 本地仓库、暂存区、工作区都不改变  
 
-​            具体说明  
+​            具体说明：  
 
 ​                --mixed   
 
@@ -168,4 +168,4 @@
 
 ### 13、vscode安装vsix文件:
 
-​    code --install-extension xxxxx.vsix    
+​    code --install-extension xxxxx.vsix   
