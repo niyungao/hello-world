@@ -36,6 +36,7 @@
 
 5、拉取指定分支代码到当前分支：
 	git pull origin master
+	git pull origin 分支名
 	注意：
 		1、每次使用该命令前，需要保证本地工作区是没有任何修改代码的，也就是说需要将本地工作区编辑过的文件添加到暂存区（git add .），或提交到本地仓库中(git commit)，才可以使用该命令拉取指定分支的代码合并到当前分支中。
 		2、每次在操作完git commit命令后，必须拉取一下master分支代码，保持本地正在开发功能逻辑的代码分支代码是最新的，避免后续在提交时冲突过多或覆盖掉其他人的代码的问题出现。
@@ -77,6 +78,7 @@
 10、放弃所有的本地改动与提交，到服务器上获取最新的版本并将本地主分支指向到它：
 	git fetch origin
 	git reset --hard origin/master
+	git reset --hard origin/分支名
 
 11、删除本地文件：
 	rm -rf A/b
