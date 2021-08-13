@@ -37,22 +37,21 @@ C端H5入口:
 
 生产账号：100118、100267
 
-【直接访问旧版专区】
-尊享版：https://r1.pre.ciccten.com/jv/v2/?whitelist_deny=1030
-理财通版：https://r1.pre.ciccten.com/jv/v2/?whitelist_deny=1030&__is_in_channel=LCT
+直接访问旧版专区：
+	尊享版：https://r1.pre.ciccten.com/jv/v2/?whitelist_deny=1030
+	理财通版：https://r1.pre.ciccten.com/jv/v2/?whitelist_deny=1030&__is_in_channel=LCT
 
 目前前端有2个和后端预发布环境一一对应的环境如下：
-预发布r0(又名内部预发布，对应后台新环境10.233.1.5)，需要公司内网访问(有线或wifi)，一般特殊大版本内部体验用，如mini50
-专区：https://pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=LCT
-尊享：https://pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=default
+	预发布r0(又名内部预发布，对应后台新环境10.233.1.5)，需要公司内网访问(有线或wifi)，一般特殊大版本内部体验用，如mini50
+		专区：https://pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=LCT
+		尊享：https://pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=default
 
-预发布r1，对应后台旧环境10.233.1.11，可外网如4g访问，一般对应前端的生产版本和当天需要发布的日常更新
-	https://r1.pre.ciccten.com/jv/v2/?console=1
-专区：https://r1.pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=LCT
-尊享：https://r1.pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=default
-——————————
-同时旧预发布域名jtpre.jm47.com已废弃，如果通过旧域名访问前端页面地址会自动302到r1.pre.ciccten.com对应的地址
+	预发布r1，对应后台旧环境10.233.1.11，可外网如4g访问，一般对应前端的生产版本和当天需要发布的日常更新
+		https://r1.pre.ciccten.com/jv/v2/?console=1
+		专区：https://r1.pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=LCT
+		尊享：https://r1.pre.ciccten.com/jv/v2/customize/customizeIndex?__is_in_channel=default
 
+	同时旧预发布域名jtpre.jm47.com已废弃，如果通过旧域名访问前端页面地址会自动302到r1.pre.ciccten.com对应的地址
 
 
 日历页链接
