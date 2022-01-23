@@ -1,39 +1,40 @@
 JV前端入口：
-	http://test.ciccten.com/jv/v2/?console=1
+	https//test.ciccten.com/jv/v2/?console=1
 C端H5入口:
 	生产环境：https://lct.ciccten.com/jv/v2/position/overview?console=1
 		https://jt.ciccten.com/jv/v2/position/overview?console=1
+	产品详情页：https://jt.ciccten.com/jv/v2/product/detail?product_id=1001877&console=1
 	预发布环境：https://r1.pre.ciccten.com/jv/v2/position/overview?console=1
 	测试环境：
-		http://test.ciccten.com/simu_public/index.html?console=1（指定login_id登陆，可选择不同页面）
-		http://test.ciccten.com/jt-qa/simuLogin
+		https://test.ciccten.com/simu_public/index.html?console=1（指定login_id登陆，可选择不同页面）
+		https://test.ciccten.com/jt-qa/simuLogin
 	预发布资产首页：https://r1.pre.ciccten.com/jv/v2/position/overview?console=1
 	预发布个人中心：https://r1.pre.ciccten.com/jv/v2/account/center/main?console=1
 
 开户每步对应链接：
-	http://test.ciccten.com/jv/v2/account/open/phone/?console=1
-	http://test.ciccten.com/jv/v2/account/open/idcard/?console=1
-	http://test.ciccten.com/jv/v2/account/open/idConfirm/?console=1
-	http://test.ciccten.com/jv/v2/account/open/profile/?console=1
-	http://test.ciccten.com/jv/v2/account/open/face/?console=1
-	http://test.ciccten.com/jv/v2/account/open/risk-evaluate/?console=1
-	http://test.ciccten.com/jv/v2/account/open/password/?console=1
-	http://test.ciccten.com/jv/v2/account/open/questionnaire/?console=1
-	http://test.ciccten.com/jv/v2/account/open/result/?console=1
-	http://test.ciccten.com/jv/v2/system/welcome?console=1
+	https://test.ciccten.com/jv/v2/account/open/phone/?console=1
+	https://test.ciccten.com/jv/v2/account/open/idcard/?console=1
+	https://test.ciccten.com/jv/v2/account/open/idConfirm/?console=1
+	https://test.ciccten.com/jv/v2/account/open/profile/?console=1
+	https://test.ciccten.com/jv/v2/account/open/face/?console=1
+	https://test.ciccten.com/jv/v2/account/open/risk-evaluate/?console=1
+	https://test.ciccten.com/jv/v2/account/open/password/?console=1
+	https://test.ciccten.com/jv/v2/account/open/questionnaire/?console=1
+	https://test.ciccten.com/jv/v2/account/open/result/?console=1
+	https://test.ciccten.com/jv/v2/system/welcome?console=1
 
 进场中间页：
-	http://test.ciccten.com/jv/v2/account/open/loading?console=1
+	https://test.ciccten.com/jv/v2/account/open/loading?console=1
 
 欢迎页：
-	http://test.ciccten.com/jv/v2/system/welcome?console=1
+	https://test.ciccten.com/jv/v2/system/welcome?console=1
 
 测试环境资讯、活动链接：
-	http://test.ciccten.com/jv/v2/news/newsDetail?article_id=100020
-	http://test.ciccten.com/jv/v2/system/lctTransferGzh?url=/news/action&article_id=100034
-	http://test.ciccten.com/jv/v2/news/action?article_id=100020
-	http://test.ciccten.com/jv/v2/news/action?article_id=100034
-	http://test.ciccten.com/jv/v2/news/action?article_id=100037
+	https://test.ciccten.com/jv/v2/news/newsDetail?article_id=100020
+	https://test.ciccten.com/jv/v2/system/lctTransferGzh?url=/news/action&article_id=100034
+	https://test.ciccten.com/jv/v2/news/action?article_id=100020
+	https://test.ciccten.com/jv/v2/news/action?article_id=100034
+	https://test.ciccten.com/jv/v2/news/action?article_id=100037
 
 生产账号：100118、100267
 
@@ -57,11 +58,11 @@ C端H5入口:
 
 日历页链接
 	测试环境：
-		http://test.ciccten.com/jv/v2/activity/calendar?__is_in_channel=LCT
-		http://test.ciccten.com/jv/v2/activity/calendar?__is_in_channel=default
+		https://test.ciccten.com/jv/v2/activity/calendar?__is_in_channel=LCT
+		https://test.ciccten.com/jv/v2/activity/calendar?__is_in_channel=default
 	预发布：
-		http://r1.pre.ciccten.com/jv/v2/activity/calendar?__is_in_channel=LCT
-		http://r1.pre.ciccten.com/jv/v2/activity/calendar?__is_in_channel=default
+		https://r1.pre.ciccten.com/jv/v2/activity/calendar?__is_in_channel=LCT
+		https://r1.pre.ciccten.com/jv/v2/activity/calendar?__is_in_channel=default
 	生产：
 		https://lct.ciccten.com/jv/v2/activity/calendar
 		https://jt.ciccten.com/jv/v2/activity/calendar
